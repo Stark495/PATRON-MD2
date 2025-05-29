@@ -17,7 +17,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY PATRON-MD 
 // set the auto reply massage on status reply  
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "!",
 // add your prifix for bot   
 STICKER_NAME: process.env.STICKER_NAME || "PATRON-MD\ndo .allvar to change sticker pack name",
 // type sticker pack name 
